@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+#snick-section-content {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    transform: scale(1.4);
+    
+}
+
+.ode-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(119, 120, 131);
+    max-width: 1000px !important;
+    
+}
+
+.ode-item img {
+    width: 100% !important;;
+    height: auto !important;;
+    object-fit: cover !important;;
+    border-radius: 10px v;
+    margin: 0 auto !important;;
+}
+.ode-item p {
+    color: #ffffff;
+}
+button {
+    padding: 10px;
+    background-color: #423e3e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

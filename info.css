@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Фон, занимающий весь экран */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.info-section h2{
+    text-align: center;
+    font-size: 28px;
+    color:#b5babd;
+}
+.info-item h3{
+    text-align: center;
+    font-size: 28px;
+    color:#b5babd;
+}
+
+.info-item p {
+    font-size: 28px;
+    color:#528aaf;;
+}
+.wish-message {
+    text-align: center;
+    font-size: 35px;
+    color:#b5babd;
+}
+.smail{
+    margin-top: 20px; 
+    text-align: center;
+}
+
+
